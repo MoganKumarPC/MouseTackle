@@ -1,0 +1,6 @@
+# MouseTackle
+A Javascript Based Cool Puzzle Game 
+
+Supported in Chrome...
+
+Full support in IE, FF will be available soon...
