@@ -1,0 +1,229 @@
+
+/***** Intro/ Index Page CSS Begins *****/
+
+
+body {
+color:#000;
+cursor:default;
+overflow:hidden;
+font-family:calibri;
+font-weight:700;
+font-size:16px;
+}
+
+#wrapperIntro {
+width:900px;
+height:600px;
+background-color:#A00F0F;
+margin:0 auto;
+position: absolute;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+}
+
+#messageIntro {
+width:300px;
+height:200px;
+position:absolute;
+background-color:#008287;
+border:3px solid #000;
+color:#EEE;
+padding-top:10px;
+text-align:center;
+cursor:default;
+top:70px;
+left:300px;
+margin:0 auto;
+}
+
+button {
+height:30px;
+width:200px;
+background-color:#000;
+display:block;
+color:#FFF;
+border:3px solid #FFF;
+text-align:center;
+margin-left:50px;
+margin-top:10px;
+cursor:pointer;
+}
+
+input {
+height:20px;
+width:200px;
+display:block;
+margin-left:50px;
+margin-top:0;
+color:#000;
+}
+
+#InstructionsIntro {
+width:600px;
+height:240px;
+position:absolute;
+background-color:#008287;
+border:3px solid #000;
+color:#EEE;
+padding-top:10px;
+text-align:center;
+cursor:default;
+top:300px;
+left:150px;
+margin:0 auto;
+}
+
+p {
+color:#EFEF00;
+font-size:16px;
+margin-top:0;
+}
+
+h3 {
+margin-top:0;
+}
+
+span {
+color:#222;
+}
+
+/***** Intro/ Index Page CSS Ends *****/
+
+
+/***** Game Page CSS Begins *****/
+
+* {
+font-family:calibri;
+font-weight:700;
+font-size:16px;
+outline:none;
+border:none;
+margin:0;
+padding:0;
+}
+
+body {
+color:#000;
+cursor:default;
+min-width:900px;
+max-width:900px;
+min-height:600px;
+max-height:600px;
+overflow:hidden;
+font-family:calibri;
+font-weight:700;
+font-size:16px;
+}
+
+#wrapper {
+width:900px;
+height:600px;
+background-color:#04abfe;
+position:relative;
+overflow:hidden;
+}
+
+table {
+width:900px;
+height:600px;
+}
+
+tr {
+width:900px;
+height:42px;
+border:1px solid #000;
+background-color:#654321;
+}
+
+td {
+width:75px;
+height:42px;
+border:1px solid #000;
+background-color:#123456;
+color:#DE4AAD;
+font-family:calibri;
+}
+
+#movingBlock {
+width:32px;
+height:32px;
+background-color:#632007;
+position:absolute;
+top:10px;
+left:10px;
+display:none;
+}
+
+.message {
+width:300px;
+height:200px;
+position:absolute;
+display:none;
+background-color:#2572EB;
+border:3px solid #000;
+color:#EEE;
+padding-top:10px;
+text-align:center;
+cursor:default;
+}
+
+.prompt {
+width:300px;
+height:200px;
+position:absolute;
+display:none;
+background-color:#2572EB;
+border:3px solid #000;
+color:#EEE;
+padding-top:30px;
+text-align:center;
+cursor:default;
+}
+
+.message h1 {
+color:#000;
+}
+
+.bounce {
+width:30px;
+height:30px;
+position:absolute;
+bottom:0;
+left:500px;
+background-color:#000;
+display:none;
+}
+
+button {
+height:30px;
+width:200px;
+background-color:#000;
+display:block;
+color:#FFF;
+border:3px solid #FFF;
+text-align:center;
+margin-left:50px;
+margin-top:10px;
+cursor:pointer;
+}
+
+input {
+height:20px;
+width:200px;
+display:block;
+margin-left:50px;
+margin-top:0;
+color:#000;
+}
+
+.nonBoundary {
+text-align:center;
+}
+
+#countHr,#countMin,#countSec,#countMilliSec {
+font-size:20px;
+}
+
+/***** Game Page CSS Ends *****/
